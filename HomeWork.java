@@ -1,6 +1,10 @@
 package com.company;
 
 public class Main {
+     //Tirgul:
+    //1. create a function that get 3 different grades(float), and checks what is the higher grade and return it from function.
+    //2. create function that get an array of int[] and return the average of array's values. {5, 10, 15}
+    //3. create a function that gets 2 arrays and return the name of the array with the larger size. (return String)
 
         public static void main(String[] args) {
 
