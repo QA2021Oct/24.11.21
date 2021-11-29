@@ -44,6 +44,8 @@ public class Main {
             int array2[] = {7,66,9};
             int num2 = 7;
             checkNumInArray(array2, num2);
+               float hG = checkHigherGrade(8.9f, 7.3f, 4.5f);
+               System.out.println(hG);
         }
 
         public static void checkNumInArray(int array [], int num ){
@@ -84,5 +86,10 @@ public class Main {
         public static void greet(){
             System.out.println("good morning");
         }
+     
+      public static float checkHigherGrade(float grade1, float grade2, float grade3){  // 50 ,40 , 40
+        return  Math.max(Math.max(grade1, grade2),grade3);
+   
+      }
 
     }
